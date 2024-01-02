@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- City Name Title -->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Registration form : "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+    <!-- RadioGroup for Chosen City -->
+    <RadioGroup
+        android:id="@+id/radioGroupCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonJbeil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jbeil" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBatroun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batroun" />
+
+        <!-- Add more RadioButtons for other cities if needed -->
+
+    </RadioGroup>
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text=" select activity :  "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- RadioGroup for Select Activity -->
+    <RadioGroup
+        android:id="@+id/radioGroupActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonHiking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hiking" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCycling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cycling" />
+
+    </RadioGroup>
+
+    <!-- Button to Send Data to SQLite Database -->
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send " />
+
+</LinearLayout>

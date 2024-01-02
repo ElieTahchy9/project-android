@@ -1,0 +1,89 @@
+<!-- res/layout/grid_item_city.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textViewCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="City Name : Jbeil "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRegion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Region : Keserwan "
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Description : Historical city on the Mediterranean coast"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageViewCityImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/jbeil" />
+
+    <Button
+        android:id="@+id/buttonSelectCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select City"/>
+
+
+    <TextView
+        android:id="@+id/textViewCityName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="City Name : Batroun "
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRegion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Region : North"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewDescription2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Coastal city known for its historical sites and beaches"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageViewCityImage2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/batroun_city" />
+
+    <Button
+        android:id="@+id/buttonSelectCity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select City"/>
+</LinearLayout>
